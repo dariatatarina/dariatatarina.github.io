@@ -1,0 +1,194 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneue-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	font-family: "Helvetica Neue", Tahoma, Arial, sans-serif;
+}
+.clearfix {
+	clear: both;
+}
+
+.container {
+	margin: 0 auto;
+	width: 1215px;
+}
+
+.menu {
+	float: right;
+    
+
+}
+.menu li {
+	margin:0;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+
+}
+.menu a{
+	line-height: 35px;
+	
+}
+.menu ul {
+	display: inline-block;
+}
+
+.menu li a{
+	display: inline-block;
+	vertical-align: middle;
+	padding:5px 10px;
+	color: #60b5ed;
+	font-size: 14px;
+	text-decoration: none;
+}
+.menu li a:hover {
+	background: #4eabda; 
+	color: #fff;
+
+}
+
+nav {
+	background: url(../img/header.png) repeat-x;
+	height: 45px;
+}
+
+.minhas,
+.ola {	
+	color: #fff;
+    font-size: 14px;
+    line-height: 35px;
+    float: right;
+    list-style: none;
+    margin-right: 20px;
+ }
+.minhas {
+	margin-top: 5px;
+}
+
+.minhas a{
+	text-decoration: none;
+	border-left: 2px solid #4299d2;
+	color: #fff;
+
+}
+.ola a {
+	color: #fff;
+	text-decoration: underline;
+	
+}
+
+.ola li{
+    background: #7db9e8; 
+    background: linear-gradient(to bottom,  #7db9e8 0%,#207cca 30%,#2e7ac4 70%,#1e5799 100%); 
+    padding: 5px 5px;
+    border: 1px solid #4299d2;
+    color: #fff;
+    line-height: 33px;
+ }
+
+.ola a:hover,
+.minhas a:hover {
+	height: 40px;
+	color: #fff;
+	line-height: 30px;
+
+}
+
+.bg {
+	min-height: 1030px;	
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/bg.png);
+    position: relative;
+    
+}
+
+
+.content {
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 560px;
+    height: 610px;
+    position: absolute;    
+    top: 50%;
+    left: 50%;
+    margin: -305px 0 0 -280px;
+}
+
+
+.cadastre{
+    text-align: center;
+	color: #fff;
+    font-size: 25px;
+    margin: 16px 0;
+
+}
+
+.fb {
+	text-align: center;
+	margin: 16px 0;
+}
+.ou {
+	text-align: center;
+	margin: 16px 0;
+	color: #8a8c8a;
+}
+
+.login {
+	line-height: 35px;
+    margin: 18px 0 0 0;
+    background-color: #0f0f0f;
+    color: #fff;
+    border: solid 1px;
+    border-color: transparent;
+    border-bottom: 1px solid #484948;
+    width: 280px;
+}
+
+.login:focus {
+	background-image: linear-gradient(to top, #1b5288 0%, #1b5288 100%);
+    box-shadow: 0 0 9px 5px rgba(47,123,197,0.77);
+
+}
+.sendme {
+	color: #fff;
+	margin:25px 0 0 0;
+	text-align: left;
+}
+
+p {
+    color: #cccccc;
+    font-size: 15px;
+    text-align: center;
+   
+}
+
+.submit {
+	background: #7db9e8; 
+    background: linear-gradient(to bottom,  #7db9e8 0%,#207cca 30%,#2e7ac4 70%,#1e5799 100%); 
+    border: 1px solid #506773;
+    width: 151px;
+    height: 37px;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.last {
+	color:#cccccc;
+	font-size: 12px;
+	text-align: center;
+	margin: 10px 0 0 0;
+}
